@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NanumSquareOTFBold.otf">
+            <string>NanumSquareOTFB</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PopListCell" id="gTV-IL-0wX" customClass="PopListCell">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="488"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="408" height="488"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="포토몬 인기순위" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6i-Hw-zGq">
+                        <rect key="frame" x="15" y="40" width="393" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14.5" id="iKh-1V-AWZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXV-Ca-kRu">
+                        <rect key="frame" x="14" y="63.5" width="380" height="2"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D7r-fp-Dgx">
+                        <rect key="frame" x="15" y="64.5" width="378" height="0.0"/>
+                        <subviews>
+                            <button opaque="NO" tag="4101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qh-OT-Qus">
+                                <rect key="frame" x="190" y="0.0" width="188" height="0.0"/>
+                                <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="13.5"/>
+                                <state key="normal" title="판매순">
+                                    <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="selected" title="판매순">
+                                    <color key="titleColor" red="1" green="0.61176470589999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTouchBestButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="S4q-aO-okm"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t36-9p-6lg">
+                                <rect key="frame" x="188" y="-6.5" width="2" height="13"/>
+                                <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="2" id="VBa-Cu-HIB"/>
+                                    <constraint firstAttribute="height" constant="13" id="dN3-0c-kFY"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" tag="4100" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJI-kK-wcq">
+                                <rect key="frame" x="0.0" y="0.0" width="188" height="0.0"/>
+                                <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="13.5"/>
+                                <state key="normal" title="베스트 5">
+                                    <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="selected" title="베스트 5">
+                                    <color key="titleColor" red="1" green="0.61176470588235299" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTouchBestButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Sj9-eo-Alt"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z3M-WD-AEt">
+                                <rect key="frame" x="0.0" y="0.0" width="188" height="0.0"/>
+                                <color key="backgroundColor" red="1" green="0.61176470589999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="SF7-dZ-dFl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3qh-OT-Qus" firstAttribute="leading" secondItem="t36-9p-6lg" secondAttribute="trailing" id="0uR-vM-39w"/>
+                            <constraint firstItem="t36-9p-6lg" firstAttribute="centerX" secondItem="D7r-fp-Dgx" secondAttribute="centerX" id="2vR-6O-UZe"/>
+                            <constraint firstItem="t36-9p-6lg" firstAttribute="centerY" secondItem="D7r-fp-Dgx" secondAttribute="centerY" id="DST-BC-8dk"/>
+                            <constraint firstItem="t36-9p-6lg" firstAttribute="leading" secondItem="hJI-kK-wcq" secondAttribute="trailing" id="Dve-2U-sUf"/>
+                            <constraint firstAttribute="trailing" secondItem="3qh-OT-Qus" secondAttribute="trailing" id="END-h3-m9w"/>
+                            <constraint firstAttribute="bottom" secondItem="z3M-WD-AEt" secondAttribute="bottom" id="Mz0-dO-kjo"/>
+                            <constraint firstItem="3qh-OT-Qus" firstAttribute="top" secondItem="D7r-fp-Dgx" secondAttribute="top" id="ZUp-BV-0GB"/>
+                            <constraint firstAttribute="bottom" secondItem="3qh-OT-Qus" secondAttribute="bottom" id="b7a-9e-yej"/>
+                            <constraint firstItem="z3M-WD-AEt" firstAttribute="width" secondItem="hJI-kK-wcq" secondAttribute="width" id="c7r-l6-P4R"/>
+                            <constraint firstItem="hJI-kK-wcq" firstAttribute="leading" secondItem="D7r-fp-Dgx" secondAttribute="leading" id="nPY-d8-9PR"/>
+                            <constraint firstItem="z3M-WD-AEt" firstAttribute="leading" secondItem="D7r-fp-Dgx" secondAttribute="leading" id="nnd-NA-M4Y"/>
+                            <constraint firstAttribute="height" id="r2g-4v-VEJ"/>
+                            <constraint firstItem="hJI-kK-wcq" firstAttribute="top" secondItem="D7r-fp-Dgx" secondAttribute="top" id="wUr-PC-acD"/>
+                            <constraint firstAttribute="bottom" secondItem="hJI-kK-wcq" secondAttribute="bottom" id="yii-gU-94T"/>
+                        </constraints>
+                    </view>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="mV3-GC-6sP">
+                        <rect key="frame" x="0.0" y="73" width="408" height="415"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="c9h-n7-uck">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="gTV-IL-0wX" id="lEN-vI-EB3"/>
+                            <outlet property="delegate" destination="gTV-IL-0wX" id="Q5s-0z-zW9"/>
+                        </connections>
+                    </collectionView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="q6i-Hw-zGq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="0q1-IQ-4F3"/>
+                <constraint firstItem="D7r-fp-Dgx" firstAttribute="top" secondItem="q6i-Hw-zGq" secondAttribute="bottom" constant="10" id="4T4-nN-Qde"/>
+                <constraint firstAttribute="trailing" secondItem="q6i-Hw-zGq" secondAttribute="trailing" id="9Ja-3u-vfx"/>
+                <constraint firstItem="aXV-Ca-kRu" firstAttribute="top" secondItem="D7r-fp-Dgx" secondAttribute="top" constant="-1" id="D6I-p4-fqS"/>
+                <constraint firstItem="aXV-Ca-kRu" firstAttribute="bottom" secondItem="D7r-fp-Dgx" secondAttribute="bottom" constant="1" id="GoE-H1-9xD"/>
+                <constraint firstItem="aXV-Ca-kRu" firstAttribute="leading" secondItem="D7r-fp-Dgx" secondAttribute="leading" constant="-1" id="YIm-Fo-scj"/>
+                <constraint firstAttribute="trailing" secondItem="D7r-fp-Dgx" secondAttribute="trailing" constant="15" id="ZMb-kJ-G7D"/>
+                <constraint firstItem="mV3-GC-6sP" firstAttribute="top" secondItem="D7r-fp-Dgx" secondAttribute="bottom" constant="8.5" id="ZVt-U6-7Ff"/>
+                <constraint firstItem="aXV-Ca-kRu" firstAttribute="trailing" secondItem="D7r-fp-Dgx" secondAttribute="trailing" constant="1" id="dax-hT-k97"/>
+                <constraint firstItem="mV3-GC-6sP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dq8-8z-U7q"/>
+                <constraint firstItem="q6i-Hw-zGq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="40" id="mIm-N6-oF5"/>
+                <constraint firstItem="D7r-fp-Dgx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="p0O-NZ-d5U"/>
+                <constraint firstAttribute="trailing" secondItem="mV3-GC-6sP" secondAttribute="trailing" id="tIt-yD-MlC"/>
+                <constraint firstAttribute="bottom" secondItem="mV3-GC-6sP" secondAttribute="bottom" id="zB3-fm-pPL"/>
+            </constraints>
+            <size key="customSize" width="408" height="488"/>
+            <connections>
+                <outlet property="alcLeadingOfIndicator" destination="nnd-NA-M4Y" id="Dnk-R5-CPC"/>
+                <outlet property="collectionView" destination="mV3-GC-6sP" id="FfP-q7-l4M"/>
+                <outlet property="indicatorView" destination="z3M-WD-AEt" id="qZF-Mz-uKK"/>
+            </connections>
+            <point key="canvasLocation" x="397.10144927536237" y="265.84821428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>

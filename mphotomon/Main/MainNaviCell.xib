@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NanumSquareOTFBold.otf">
+            <string>NanumSquareOTFB</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MainNaviCell" id="gTV-IL-0wX" customClass="MainNaviCell">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="43"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="43"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4f-bD-haV">
+                        <rect key="frame" x="23.5" y="14" width="33.5" height="15"/>
+                        <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="13.300000190734863"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBU-JO-7bc">
+                        <rect key="frame" x="8" y="41" width="64" height="2"/>
+                        <color key="backgroundColor" red="1" green="0.61176470589999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="bWr-0w-968"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="EBU-JO-7bc" secondAttribute="bottom" id="1cG-QS-nwr"/>
+                <constraint firstItem="EBU-JO-7bc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="BHg-xQ-0eQ"/>
+                <constraint firstItem="E4f-bD-haV" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="cn7-lH-8Kb"/>
+                <constraint firstItem="E4f-bD-haV" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="iZz-iV-zGd"/>
+                <constraint firstAttribute="trailing" secondItem="EBU-JO-7bc" secondAttribute="trailing" constant="8" id="nET-IQ-iUA"/>
+            </constraints>
+            <size key="customSize" width="80" height="43"/>
+            <connections>
+                <outlet property="indicatorView" destination="EBU-JO-7bc" id="eZy-0l-y40"/>
+                <outlet property="lbTitle" destination="E4f-bD-haV" id="tFF-Yr-fhv"/>
+            </connections>
+            <point key="canvasLocation" x="159.42028985507247" y="134.26339285714286"/>
+        </collectionViewCell>
+    </objects>
+</document>

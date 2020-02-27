@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NanumSquareOTFBold.otf">
+            <string>NanumSquareOTFB</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RecommendCell" id="gTV-IL-0wX" customClass="RecommendCell">
+            <rect key="frame" x="0.0" y="0.0" width="260" height="268"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="260" height="268"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="추천 상품" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="da3-jY-aBv">
+                        <rect key="frame" x="15" y="40" width="245" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14.5" id="l5W-gJ-Cuw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EPn-ha-AQx" customClass="iCarousel">
+                        <rect key="frame" x="0.0" y="69.5" width="260" height="198.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="EPn-ha-AQx" firstAttribute="top" secondItem="da3-jY-aBv" secondAttribute="bottom" constant="15" id="1Ev-jJ-2am"/>
+                <constraint firstItem="da3-jY-aBv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="40" id="Dun-Op-bXH"/>
+                <constraint firstItem="da3-jY-aBv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="hSm-h5-3rX"/>
+                <constraint firstItem="EPn-ha-AQx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="jia-ow-z37"/>
+                <constraint firstAttribute="trailing" secondItem="da3-jY-aBv" secondAttribute="trailing" id="lc9-cX-PJZ"/>
+                <constraint firstAttribute="bottom" secondItem="EPn-ha-AQx" secondAttribute="bottom" id="o0x-dS-czt"/>
+                <constraint firstAttribute="trailing" secondItem="EPn-ha-AQx" secondAttribute="trailing" id="vxH-L3-mAZ"/>
+            </constraints>
+            <size key="customSize" width="260" height="268"/>
+            <connections>
+                <outlet property="wheelView" destination="EPn-ha-AQx" id="Zhn-Lt-w51"/>
+            </connections>
+            <point key="canvasLocation" x="289.85507246376812" y="209.59821428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>

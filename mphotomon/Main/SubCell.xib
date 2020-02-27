@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NanumSquareOTFBold.otf">
+            <string>NanumSquareOTFB</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SubCell" id="gTV-IL-0wX" customClass="SubCell">
+            <rect key="frame" x="0.0" y="0.0" width="182" height="266"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="182" height="266"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="90u-Ef-gT0">
+                        <rect key="frame" x="0.0" y="59.5" width="182" height="160"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="160" id="nPs-AN-R8Y"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxV-xF-tXb">
+                        <rect key="frame" x="0.0" y="229.5" width="182" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="H8O-p0-P87"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Bq-o2-Qyh">
+                        <rect key="frame" x="0.0" y="244" width="182" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="d23-hK-ztg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="13.5"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="6Bq-o2-Qyh" secondAttribute="bottom" constant="10" id="5Hb-AV-Hqc"/>
+                <constraint firstAttribute="trailing" secondItem="90u-Ef-gT0" secondAttribute="trailing" id="5cA-3c-QiN"/>
+                <constraint firstItem="6Bq-o2-Qyh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="apg-ma-ySy"/>
+                <constraint firstItem="90u-Ef-gT0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="eKj-3B-VX2"/>
+                <constraint firstItem="wxV-xF-tXb" firstAttribute="top" secondItem="90u-Ef-gT0" secondAttribute="bottom" constant="10" id="erL-UJ-li9"/>
+                <constraint firstAttribute="trailing" secondItem="6Bq-o2-Qyh" secondAttribute="trailing" id="nZr-wu-DXx"/>
+                <constraint firstItem="wxV-xF-tXb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="pfg-oi-nga"/>
+                <constraint firstItem="6Bq-o2-Qyh" firstAttribute="top" secondItem="wxV-xF-tXb" secondAttribute="bottom" constant="2.5" id="vm8-0V-c5u"/>
+                <constraint firstAttribute="trailing" secondItem="wxV-xF-tXb" secondAttribute="trailing" id="y7V-n0-wJK"/>
+            </constraints>
+            <size key="customSize" width="182" height="266"/>
+            <connections>
+                <outlet property="alcHeightOfSubTitle" destination="H8O-p0-P87" id="MCO-HB-Ukg"/>
+                <outlet property="alcHeightOfThumb" destination="nPs-AN-R8Y" id="Od6-hC-TSL"/>
+                <outlet property="ivThumb" destination="90u-Ef-gT0" id="ChS-RC-4L7"/>
+                <outlet property="lbSubTitle" destination="wxV-xF-tXb" id="kHi-HT-tX0"/>
+                <outlet property="lbTitle" destination="6Bq-o2-Qyh" id="YeY-XO-NWz"/>
+            </connections>
+            <point key="canvasLocation" x="233.33333333333334" y="208.92857142857142"/>
+        </collectionViewCell>
+    </objects>
+</document>

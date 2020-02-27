@@ -1,0 +1,504 @@
+/* 
+  Localizable.strings
+  mphotomon
+
+  Created by photoMac on 2015. 7. 22..
+  Copyright (c) 2015년 maybeone. All rights reserved.
+*/
+
+
+// 메시지
+"errorNetworkConnection" = "네트워크에 연결할 수 없습니다.";
+"InviteMessage"="포토몬앱에서 쉽고 재미있게 사진과 소품들을 만들어 보세요 \nhttps://itunes.apple.com/kr/app/photomon/id723333895?mt=8";
+
+
+// mainViewController
+//"mainBanner" = "http://m.photomon.com/include/mainBanner_ios.asp";
+//"downloadVersionInfo" = "http://m.photomon.com/version_event.asp";
+
+
+//"mainEventUrl" = "http://m.photomon.com/mEvent/event_page.asp";
+
+// productTableViewController
+//"uploadHostUrl"="https://www.photomon.com/xml/urlprint.asp?urltype=UPLOAD_HOST";
+//"uploadHostImageUrl"="https://www.photomon.com/xml/urlprint.asp?urltype=UPLOAD_HOST_IMAGE";
+//"readPrintRecvInfo"="http://www.photomon.com/admin/RecvInfo_utf8.asp";
+//"downloadPrintInfo"="http://www.photomon.com/include/appinfo/sizeinfo.asp?mode=mIOS";
+
+// uploadViewController
+//"orderNoUrl"="https://www.photomon.com/xml/urlprint.asp?urltype=orderno";
+
+//장바구니 세션
+//"readCartSession"="https://www.photomon.com/xml/mCart_session.asp";
+
+//장바구니 insert
+//"AddCartOkUrl"="https://www.photomon.com/xml/mAddCart_ok.asp?userid=%@&orderno=%@&cart_session=%@";
+
+//장바구니 리스트https://www.photomon.com/xml/mOrderCart_android.asp
+//"readOrderCartUrl"="https://www.photomon.com/xml/mOrderCart_android.asp?userid=%@&cart_session=%@";
+
+//장바구니 미리보기
+//"OrderCartPrintingPreviewUrl"="https://www.photomon.com/xml/mOrderCartPrintingPreview.asp?orderno=%@"; // 사진인화
+//"OrderCartPhotobookPreviewUrl"="https://www.photomon.com/xml/mOrderCartPrintingPreview.asp?g_class=%@"; // 포토북
+
+//수량
+//"updatePrintQuantityItemWithOrderNo"="https://www.photomon.com/xml/mAddCart_Modify_File.asp?orderno=%@&idx=%@&cnt=%@";
+//"updateEndPrintQuantityItemWithOrderNo"="https://www.photomon.com/xml/mAddCart_Modify.asp?orderno=%@&price=%@";
+//포토북수량
+//"updatePhotobookQuantityItemWithCartIndex"="https://www.photomon.com/xml/mAddCart_Modify_identity.asp?cart_idx=%@&price=%@&pkgcnt=%@";
+
+
+//장바구니 삭제
+//"delOrderCartUrl"="https://www.photomon.com/xml/mOrderCartdel.asp?cart_idx=%@";
+
+//
+//"AddressSearch"="https://www.photomon.com/xml/mPostAddr.asp?postsearch=%@";
+
+//
+//"SendDeliveryInfo"="https://www.photomon.com/xml/mP_OID.asp?EmailAddr=%@&UserName=%@&telnum=%@&cellnum=%@&ArrCart_idx=%@&sumPrice=%@&recvAmt=%@&deliveryNo=3&postnum=%@&addr1=%@&addr2=%@&userid=%@&Couponstr=%@&recvmemo=%@";
+
+
+//"PaymentNextUrl"="https://www.photomon.com/mobile/mOrder/P_NEXT_URL.asp";
+//"PaymentNotiUrl"="https://www.photomon.com/mobile/mOrder/P_NOTI_URL.asp";
+//"PaymentNotiStr"="^%ld^mileageVal^%@^%@^%@";
+//"PaymentOrderPayUrl"="https://www.photomon.com/mobile/mOrder/orderPay_step3.asp";
+//"PaymentParam"="P_MID=photomon03&P_OID=%@&P_AMT=%@&P_UNAME=%@&P_NOTI=%@&P_NEXT_URL=%@&P_NOTI_URL=%@&P_RETURN_URL=%@&P_GOODS=%@&P_MOBILE=%@&P_EMAIL=%@&P_HPP_METHOD=2&inipaymobile_type=app&P_RESERVED=";
+
+/*
+ if($("input[name='P_GOPAYMETHOD']:checked").val() == "CARD") {
+	document.ini.action = "https://mobile.inicis.com/smart/wcard/"; //카드
+ }else if($("input[name='P_GOPAYMETHOD']:checked").val() == "HPP") {
+	document.ini.action = "https://mobile.inicis.com/smart/mobile/"; //핸드폰
+ }else if($("input[name='P_GOPAYMETHOD']:checked").val() == "BANK") {
+	document.ini.action = "https://mobile.inicis.com/smart/vbank/"; //가상계좌
+ }
+ */
+//"InicisSmart"="https://mobile.inicis.com/smart/%@/";
+
+//무통장 결제
+//"PaymentVBank"="http://m.photomon.com/mOrder/orderpay_step2_vbnk.asp";
+
+//
+//"PaymentHomeUrl"="http://m.photomon.com/";
+//"PaymentHomeUrl2"="https://m.photomon.com/";
+//"PaymentCancel"="http://m.photomon.com/mOrder/orderCart.asp";
+//"PaymentErrCode"="http://m.photomon.com/?errCode=Y";
+//"PaymentCompleteUrl"="/orderPay_step3.asp?tuid=%@";
+/*
+"PaymentOrderPayUrlParam"="https://www.photomon.com/mobile/mOrder/orderPay_step3.asp?tuid=%@";
+"PaymentOrderPayUrlParam1"="http://m.photomon.com/mOrder/orderPay_step3.asp?tuid=%@";
+
+*/
+
+// https://www.photomon.com/xml/mlogin.asp?userid=kyungeun&userpw=1234
+//로그인/아웃
+//"UserLoginUrl" = "https://www.photomon.com/xml/mlogin.asp?userid=%@&userpw=%@";
+//"UserLogoutUrl" = "https://www.photomon.com/member/mlogout_ok.asp";
+//
+//https://www.photomon.com/xml/mcheckid.asp?username=이경은&emailAddr=lky@fi.co.kr
+//아이디찾기
+//"UserIDFindUrl" = "https://www.photomon.com/xml/mcheckid.asp?username=%@&emailAddr=%@";
+// https://www.photomon.com/xml/mcheckpass.asp?username=이경은&emailAddr=lky@fi.co.kr&userid=kyungeun
+//비밀번호찾기(일치 시 문자까지 발송)
+//"UserPWFindUrl" = "https://www.photomon.com/xml/mcheckpass.asp?username=%@&emailAddr=%@&userid=%@";
+// https://www.photomon.com/xml/mOverlapID.asp?userid=kyungeun
+//아이디중복체크
+//"UserIDCheckUrl" = "https://www.photomon.com/xml/mOverlapID.asp?userid=%@";
+// https://www.photomon.com/xml/mOverlapEmail.asp?EmailAddr=lky@fi.co.kr
+//이메일중복체크
+//"UserEmailCheckUrl" = "https://www.photomon.com/xml/mOverlapEmail.asp?EmailAddr=%@";
+
+//회원가입
+/*
+ userid = Trim(Request("userid")) ' 아이디
+ userpw = Trim(Request("userpw1")) ' 비밀번호
+ cellnum = Request("cel1")&"-"&Request("cel2")&"-"&Request("cel3")	'전화번호
+ emailaddr = Request("emailaddr")	 ' 이메일
+ mailchk = Request("mailchk")	 ' 메일수신동의
+ smschk = Request("smschk")	 ' sms수신동의
+ */
+//"UserSignUpUrl"="https://www.photomon.com/xml/mjoin_form_ok.asp?username=%@&userid=%@&userpw=%@&cel1=%@&cel2=%@&cel3=%@&emailaddr=%@&mailchk=%@&smschk=%@";
+
+// 주문조회
+//"readOrderDeliveryInfo"="https://www.photomon.com/xml/mOrderDeliveryInfo.asp?userid=%@&cart_session=%@";
+//최근 주문 정보
+//"readOrderDeliveryDetail"="https://www.photomon.com/xml/mOrderDeliveryDetail.asp?userid=%@";
+
+//주문배송정보
+//"readOrderResult"="https://www.photomon.com/xml/mOrderResult.asp?tuid=%@";
+//"readOrderDeliveryFileInfo"="https://www.photomon.com/xml/mOrderDeliveryFileInfo.asp?tuid=%@";
+
+//포토몬 게시판 리스트 파라미터
+//"readQnaList"="https://www.photomon.com/xml/mQnaList.asp?userid=%@";
+//포토몬 게시판 리스트 뷰 파라미터 (글내용 가져옴)
+//"readQnaListView"="https://www.photomon.com/xml/mQnaListView.asp?board_idx=%@";
+//포토몬 게시판 글 작성 파라미터
+//"writemQna"="https://www.photomon.com/xml/mQnawrite.asp?subject=%@&category=%@&content=%@&userid=%@&username=%@&scrid=%@";
+//포토몬 게시판 글 삭제 파라미터
+//"deletemQna"="https://www.photomon.com/xml/mQnadelete.asp?userid=%@&board_idx=%@";
+
+//공지사항
+//"readNoticeList"="https://www.photomon.com/xml/mNotice.asp";
+//"readNoticeHtml"="https://www.photomon.com/xml/mNotice_content.asp?idx=%@";
+//"readNoticeURL"="https://www.photomon.com/xml/mNotice_content.asp?idx=%@";
+
+
+//쿠폰 목록
+//"readCouponInfo"="https://www.photomon.com/xml/mcoupon.asp?userid=%@";
+//쿠폰 정보 입력
+//"insertCouponUrl"="http://m.photomon.com/morder/couponinsert.asp?newcouponno=%@&userid=%@";
+
+/*
+
+ 
+// 제품명
+"PhotoPrintName_1" = "3X4 사진인화";
+"PhotoPrintName_2" = "3.5X5 사진인화";
+"PhotoPrintName_3" = "D4 사진인화";
+"PhotoPrintName_4" = "4X6 사진인화";
+"PhotoPrintName_5" = "5X7 사진인화";
+"PhotoPrintName_6" = "8X10 사진인화";
+"PhotoPrintName_7" = "A4 사진인화";
+"PhotoPrintName_8" = "10X13 사진인화";
+"PhotoPrintName_9" = "10X15 사진인화";
+"PhotoPrintName_10" = "11X14 사진인화";
+"Degin&CollagePrintName_1" = "미니 폴라로이드 세트";
+"Degin&CollagePrintName_2" = "폴라로이드 세트";
+"Degin&CollagePrintName_3" = "6X8 콜라주 인화";
+"Degin&CollagePrintName_4" = "8X10 콜라주 인화";
+"PhotoStickerName_1" = "스티커북 6분할";
+"PhotoStickerName_1" = "스티커북 2분할";
+"PhotoStickerName_1" = "스티커북 1분할";
+"PhotoStickerName_1" = "스티커 세트";
+"PhotoFrameName_1" = "인피니아트";
+"PhotoGiftName_1" = "포토텀블러";
+"SkiniBookName_1" = "스키니북";
+
+"SaveQuantity"="사진 인화 수량을 변경하시겠습니까?";
+
+"CartItemSecondTitle" = "사진%d장 인화%d장";
+"CartItemThirdTitle" = "%d원";
+"QuantityChangesSecondTitle" = "%d원 -> %d원";
+
+"SelectPhotoTitle"= "%d 장 선택";
+
+"3months" = "  최근 3개월";
+"6months" = "  최근 6개월";
+"12months" = "  최근 12개월";
+
+"CostLabel" = "%d원";
+"PreeViewLabel" = "%@\n사이즈: %@ / 수량: %@\n%@";
+
+"payment_bank"="무통장"; //1
+"payment_phone"="핸드폰"; //4
+"payment_card"="카드"; //2
+
+//버전정보
+"downloadVersionInfo" = "http://m.photomon.com/version.asp";
+
+// https://www.photomon.com/xml/mlogin.asp?userid=kyungeun&userpw=1234
+//로그인
+"UserLoginUrl" = "https://www.photomon.com/xml/mlogin.asp?userid=%@&userpw=%@";
+//
+//https://www.photomon.com/xml/mcheckid.asp?username=이경은&emailAddr=lky@fi.co.kr
+//아이디찾기
+"UserIDFindUrl" = "https://www.photomon.com/xml/mcheckid.asp?username=%@&emailAddr=%@";
+// https://www.photomon.com/xml/mcheckpass.asp?username=이경은&emailAddr=lky@fi.co.kr&userid=kyungeun
+//비밀번호찾기(일치 시 문자까지 발송)
+"UserPWFindUrl" = "https://www.photomon.com/xml/mcheckpass.asp?username=%@&emailAddr=%@&userid=%@";
+// https://www.photomon.com/xml/mOverlapID.asp?userid=kyungeun
+//아이디중복체크
+"UserIDChackUrl" = "https://www.photomon.com/xml/mOverlapID.asp?userid=%@";
+// https://www.photomon.com/xml/mOverlapEmail.asp?EmailAddr=lky@fi.co.kr
+//이메일중복체크
+"UserEmailChackUrl" = "https://www.photomon.com/xml/mOverlapEmail.asp?EmailAddr=%@";
+///*
+ userid = Trim(Request("userid")) ' 아이디
+ userpw = Trim(Request("userpw1")) ' 비밀번호
+ cellnum = Request("cel1")&"-"&Request("cel2")&"-"&Request("cel3")	'전화번호
+ emailaddr = Request("emailaddr")	 ' 이메일
+ mailchk = Request("mailchk")	 ' 메일수신동의
+ smschk = Request("smschk")	 ' sms수신동의
+//
+"UserSignUpUrl"="https://www.photomon.com/xml/mjoin_form_ok.asp?username=%@&userid=%@&userpw=%@&cel1=%@&cel2=%@&cel3=%@&emailaddr=%@&mailchk=%@&smschk=%@";
+//"UserSignUpUrl"="http://www.photomon.com/photomobile/xml/mjoin_form_ok.asp?username=%@&userid=%@&userpw=%@&cel1=%@&cel2=%@&cel3=%@&emailaddr=%@&mailchk=%@&smschk=%@";
+///*
+ '주문번호	sOrderNO	 7자리정수	1234567
+ '사이즈	sSize	^로 구분	4x6^8x10^
+ '수량	sCnt	 ^로 구분	10^5^
+ '트리밍정보	sTrimInfo	T:상단,L:좌측 시작위치_이동픽셀값	상단 10px -> T_10^T_10^ (디폴트일 경우는 null)
+ '인화지선택	sLightType	L: 광택,N:무광택
+ '짤림선택	sFullType	 I:이미지풀,P:인화지풀
+ '테두리선택	sBorderType	B:유테,M:무테
+ '보정선택	sReviseType	Y:보정,N:무보정
+ '촬영일	 sDateType	Y:삽입,N:삽입안함
+ '파일	 orifile	 업로드되는 파일데이터
+ '파일	 sFile	 업로드되는 파일명
+ '썸네일	 thumbfile	 썸네일 파일데이터
+ //
+"UploadOrderUrlParameter" = "sOrderNO=%@&sSize=%@&sCnt=%@&sTrimInfo=%@&sLightType=%@&sFullType=%@&sBorderType=%@&sReviseType=%@&sDateType=%@&orifile=%@&sFile=%@&thumbfile=%@";
+
+"INIpayMobileUrlParameter" = "?P_MID=%@&P_OID=%@&P_AMT=%@&P_UNAME=%@&P_NOTI=%@&P_NEXT_URL=%@&P_NOTI_URL=%@&P_RETURN_URL=%@&P_GOODS=%@&P_MOBILE=%@&P_EMAIL=%@&P_HPP_METHOD=%@&inipaymobile_type=%@&P_RESERVED=";
+//사진전송 주문번호
+"OrderNumberUrl" = "http://file.photomon.com/UploadApp/makeOrdernoIOS.asp";
+//사진전송
+"PhotoPrintUrl"="http://file.photomon.com/UploadApp/Upload_Process_mobileIOS.asp";
+//장바구니 insert
+"AddCartOkUrl"="https://www.photomon.com/xml/mAddCart_ok.asp?userid=%@&orderno=%@&cart_session=%@";
+//장바구니 리스트
+"readOrderCartUrl"="https://www.photomon.com/xml/mOrderCart.asp?userid=%@&cart_session=%@";
+//장바구니 삭제
+"delOrderCartUrl"="https://www.photomon.com/xml/mOrderCartdel.asp?cart_idx=%@";
+//장바구니 수정
+"modifyOrderCartUrl"="https://www.photomon.com/xml/mOrderCartmodify.asp?cart_idx=%@&pkgcnt=%@";
+//장바구니 세션
+"readCartSession"="https://www.photomon.com/xml/mCart_session.asp";
+//장바구니 미리보기
+"OrderCartPrintingPreviewUrl"="https://www.photomon.com/xml/mOrderCartPrintingPreview.asp?orderno=%@";
+//기타제품 장바구니 insert
+"AddCartOkStoreUrl"="https://www.photomon.com/xml/mAddCart_ok_store.asp?userid=%@&cart_session=%@&intnum=%@&seq=%@&pkgcnt=%@&g_size=%@&g_class=%@&pkgname=%@&pkgamount=%@&productcode=%@";
+
+"updatePrintQuantityItemWithOrderNo"="https://www.photomon.com/xml/mAddCart_Modify_File.asp?orderno=%@&idx=%@&cnt=%@";
+"updateEndPrintQuantityItemWithOrderNo"="https://www.photomon.com/xml/mAddCart_Modify.asp?orderno=%@&price=%@";
+
+
+//상품정보
+//"SendDeliveryInfo"="https://www.photomon.com/xml/mP_OID.asp?EmailAddr=%@&UserName=%@&telnum=%@&cellnum=%@&ArrCart_idx=%@&sumPrice=%@&recvAmt=%@&deliveryNo=3&postnum=%@&addr1=%@&addr2=%@&userid=%@&Couponstr=%@";
+"SendDeliveryInfo"="https://www.photomon.com/xml/mP_OID.asp?EmailAddr=%@&UserName=%@&telnum=%@&cellnum=%@&ArrCart_idx=%@&sumPrice=%@&recvAmt=%@&deliveryNo=3&postnum=%@&addr1=%@&addr2=%@&userid=%@&Couponstr=%@&recvmemo=%@";
+
+
+// if($("input[name='P_GOPAYMETHOD']:checked").val() == "CARD") {
+//	document.ini.action = "https://mobile.inicis.com/smart/wcard/"; //카드
+// }else if($("input[name='P_GOPAYMETHOD']:checked").val() == "HPP") {
+//	document.ini.action = "https://mobile.inicis.com/smart/mobile/"; //핸드폰
+// }else if($("input[name='P_GOPAYMETHOD']:checked").val() == "BANK") {
+//	document.ini.action = "https://mobile.inicis.com/smart/vbank/"; //가상계좌
+// }
+
+"InicisSmart"="https://mobile.inicis.com/smart/%@/";
+
+//무통장 결제
+"PaymentVBank"="http://m.photomon.com/mOrder/orderpay_step2_vbnk.asp";
+
+//스티커 목록
+"StickerListInfo"="https://www.photomon.com/xml/mStickerListURL.asp";
+
+//주소
+"AddressSearch"="https://www.photomon.com/xml/mPostAddr.asp?postsearch=%@";
+
+//쿠폰 목록
+"readCouponInfo"="https://www.photomon.com/xml/mcoupon.asp?userid=%@";
+
+//제품 정보
+"readStoreInfo"="https://www.photomon.com/xml/mstoresb.asp";
+
+//배송정보
+"readOrderDeliveryInfo"="https://www.photomon.com/xml/mOrderDeliveryInfo.asp?userid=%@";
+
+//쿠폰 정보 입력
+"insertCouponUrl"="http://m.photomon.com/morder/couponinsert.asp?newcouponno=%@&userid=%@";
+
+//상품정보
+"downloadPrintInfo"="http://www.photomon.com/include/appinfo/sizeinfo.asp?mode=mIOS";
+
+//포토몬 게시판 리스트 파라미터
+"readQnaList"="https://www.photomon.com/xml/mQnaList.asp?userid=%@";
+
+//포토몬 게시판 리스트 뷰 파라미터
+"readQnaListView"="https://www.photomon.com/xml/mQnaListView.asp?board_idx=%@";
+
+//포토몬 게시판 글 작성 파라미터
+"writemQna"="https://www.photomon.com/xml/mQnawrite.asp?subject=%@&category=%@&content=%@&userid=%@&username=%@&scrid=%@";
+
+//포토몬 게시판 글 삭제 파라미터
+"deletemQna"="https://www.photomon.com/xml/mQnadelete.asp?userid=%@&board_idx=%@";
+
+//최근 주문 정보
+"readOrderDeliveryDetail"="https://www.photomon.com/xml/mOrderDeliveryDetail.asp?userid=%@";
+
+//주문배송정보
+"readOrderResult"="https://www.photomon.com/xml/mOrderResult.asp?tuid=%@";
+"readOrderDeliveryFileInfo"="https://www.photomon.com/xml/mOrderDeliveryFileInfo.asp?tuid=%@";
+
+//결제 정보
+//"PaymentNextUrl"="http://m.photomon.com/mOrder/payApp/P_NEXT_URL.asp";
+//"PaymentNotiUrl"="http://m.photomon.com/mOrder/payApp/P_NOTI_URL.asp";
+//"PaymentOrderPayUrl"="http://m.photomon.com/mOrder/orderPay_step3.asp";
+
+"PaymentNextUrl"="https://www.photomon.com/mobile/mOrder/P_NEXT_URL.asp";
+"PaymentNotiUrl"="https://www.photomon.com/mobile/mOrder/P_NOTI_URL.asp";
+"PaymentOrderPayUrl"="https://www.photomon.com/mobile/mOrder/orderPay_step3.asp";
+"PaymentOrderPayUrlParam"="https://www.photomon.com/mobile/mOrder/orderPay_step3.asp?tuid=%@";
+"PaymentOrderPayUrlParam1"="http://m.photomon.com/mOrder/orderPay_step3.asp?tuid=%@";
+"PaymentCancel1"="http://m.photomon.com/mOrder/orderCart.asp";
+
+"PaymentHomeUrl"="https://m.photomon.com/";
+"PaymentHomeUrl12"="http://m.photomon.com/";
+"PaymentHomeErrCode"="http://m.photomon.com/?errCode=Y";
+"PaymentNotiStr"="^%ld^mileageVal^%@^%@^%@";
+"PaymentParam"="P_MID=photomon03&P_OID=%@&P_AMT=%@&P_UNAME=%@&P_NOTI=%@&P_NEXT_URL=%@&P_NOTI_URL=%@&P_RETURN_URL=%@&P_GOODS=%@&P_MOBILE=%@&P_EMAIL=%@&P_HPP_METHOD=2&inipaymobile_type=app&P_RESERVED=";
+
+//공지사항
+"readNoticeList"="https://www.photomon.com/xml/mNotice.asp";
+"readNoticeHtml"="https://www.photomon.com/xml/mNotice_content.asp?idx=%@";
+"readNoticeURL"="https://www.photomon.com/xml/mNotice_content.asp?idx=%@";
+"mainBanner" = "http://m.photomon.com/include/mainBanner_ios_test.asp";
+//"UPLOAD_HOST"="http://file.photomon.com/UploadApp/";
+//"UPLOAD_HOST_IMAGE"="Upload_Process_mobileIOS.asp";
+
+"readPrintRecvInfo"="http://www.photomon.com/admin/adminLog/recvInfoMobile.txt";
+
+//택배조회
+"readOrderDeliveryCJ"="http://www.cjgls.co.kr/kor/service/service02_01.asp?slipno=%@";
+"readOrderDeliveryEPost"="http://service.epost.go.kr/trace.RetrieveRegiPrclDeliv.postal?sid1=%@";
+"DELIVER_CJ" = "CJ GLS";
+"DELIVER_EPOST" = "우체국택배";
+"NotDeliveryNum" = "송장번호가 없습니다";
+
+//타이틀
+"MainCover" = "앞커버";
+"SubCover" = "뒤커버";
+"00_main_cart1_title01"="장바구니";
+"00_main_cart2_title01"="인화수량변경";
+"00_main_cart3_title"="미리보기";
+"00_main_cart4_title"="주문결제";
+"00_main_cart5_title"="결제완료";
+"00_main_cp_title"="쿠폰관리";
+"00_main_list_title"="주문내역";
+"00_main_option_title"="환경설정";
+"00_main_option_title02"="로그인";
+"00_main_option_title03"="아이디찾기";
+"00_main_option_title04"="비밀번호찾기";
+"00_main_option_title05"="회원가입";
+"00_main_quest_title"="이용문의";
+"00_main_notice_title"="공지사항";
+"00_main_03keep"="보관함";
+"01_camera_titlxxe01"="사진확인";
+"02_pp1_title"="사이즈 선택";
+"02_pp2_title_size"="%@ 인화";
+"03_skinny_title01"="스키니북";
+"03_skinny_title02"="커버편집";
+"03_skinny_title03"="미리보기";
+"03_skinny_title04"="상품정보";
+"edit_title01"="사진 편집";
+"edit_title02"="필터";
+"edit_title03"="액자";
+"edit_title04"="효과";
+"edit_title05"="보정";
+"sticker_title"="스티커";
+"CoverMainPreeViewTitle"="앞 커버";
+"CoverSubPreeViewTitle"="뒤 커버";
+"order_info_list"="주문상품목록";
+"order_view_title"="주문배송 조회";
+
+//필터이름
+"edit_effect00"="Number";
+"edit_fillter01"="Dawn";
+"edit_fillter02"="Chocolate";
+"edit_fillter03"="Vibrant";
+"edit_fillter04"="Marilyn";
+"edit_fillter05"="Clyde";
+"edit_fillter06"="Avenue";
+"edit_fillter07"="Haas";
+"edit_fillter08"="Arizona";
+"edit_fillter09"="Lucky";
+"edit_fillter10"="Dean";
+"edit_fillter11"="Boardwalk";
+"edit_fillter12"="Keylime";
+"edit_fillter13"="Marie";
+"edit_fillter14"="Sage";
+"edit_fillter15"="Metropolis";
+"edit_fillter16"="Cruz";
+
+//이펙터 이름
+"edit_effect00"="Number";
+"edit_effect01"="Pen";
+"edit_effect02"="Lomo";
+"edit_effect03"="poster";
+"edit_effect04"="pastel";
+"edit_effect05"="Comic";
+"edit_effect06"="Water";
+"edit_effect07"="Contours";
+"edit_effect08"="Sketcher";
+"edit_effect09"="OldPaper";
+"edit_effect10"="Grafit";
+"edit_effect11"="Neon";
+"edit_effect12"="Gouache";
+
+//에러 메세지
+"App Update Now"="%@ 버전으로 업데이트를 진행해 주세요.";
+"Error Connect"="연결 실패 하였습니다. \n다시 연결해 주세요.";
+"Error Network"="네트워크 연결 실패 하였습니다. \n 네트워크를 확인해 주세요.";
+"Error Network Restart"="네트워크 연결 실패 하였습니다. \n 다시 실행 하시겠습니까?.";
+"Login Success"="%@님 반갑습니다.";
+"Login Failed"="아이디 / 비밀번호가 맞지 않습니다.";
+"Coupon Failed"="사용 할 수 없는 쿠폰입니다.\n 다시 선택해 주세요.";
+"Coupon Ok"="사용 할 수 있는 쿠폰입니다.\n 사용 하시겠습니까?";
+"ID Faild"="아이디를 찾을 수 없습니다.";
+"ID Find OK"="아이디 '%@' 입니다.";
+"PW failed"="이름 / 아이디 / 이메일이 맞지 않습니다.";
+"PW Find PW OK"="이메일 %@ 으로 비밀번호를 보냈습니다. 확인해 주세요.";
+"Error Device SMS"="메세지를 지원하지 않습니다!";
+"Error SMS"="메세지를 보낼수없습니다.";
+"Fackbook Login Failed"="페이지북을 로그인 해야 합니다. 로그인 하시겠습니까?";
+"Tweitter Error"="메세지를 보낼수 없습니다. 트위터를 로그인 해주세요.";
+"Fackbook Error"="메세지를 보낼수 없습니다. 페이스북을 로그인 해주세요.";
+"PHOTO SAVED"="사진이 저장 되었습니다.";
+"IdCheck Failed"="이미 사용중인 아이디 입니다.";
+"IdCheck OK"="사용 가능한 아이디 입니다.";
+"EmailCheck Failed"="이미 사용중인 이메일 입니다.";
+"EmailCheck OK"="사용 가능한 이메일 입니다.";
+"ID input Failed"="아이디를 입력해 주세요.";
+"Email input Failed"="이메일를 입력해 주세요.";
+"Phone Input Failed" = "전화번호를 잘못 입력하셨습니다.\n다시 입력해 주세요.";
+"Name input Failed"="이름을 입력해 주세요.";
+"PW input Failed"="비밀번호를 입력해 주세요.";
+"Find Address Input Failed"="주소를 검색해 주세요.";
+"Address Input Failed"="상세 주소를 입력해 주세요.";
+"DeliveryTypeFailed"="결제 방법을 선택해 주세요.";
+"Check PW input Failed"="확인 비밀번호를 입력해 주세요.";
+"Email Find Failed"="이메일 중복확인을 해주시기 바랍니다.";
+"ID Find Failed"="아이디 중복확인을 해주시기 바랍니다.";
+"SignUpOK Faild"="가입 실패 하였습니다.";
+"SignUpOK Success"="가입 성공 하였습니다.\n\n회원가입 축하쿠폰을 드립니다!!\n1. 2,000원 사진인화할인권\n(대형인화,증명사진제외)\n2. 모바일 돌초대장 상품권\n\n쿠폰관리에서 쿠폰을 확인\n하시고 결제시 적용하세요!";
+"PaymentErrorMsg"="결제 중 오류가 발생했습니다.\n 다시 진행해 주시기 바랍니다.";
+"Error onCostView"="주문 할 품목을 선택해\n주시기 바랍니다.";
+
+"Login Check Failed"="로그인 후 이용 가능 합니다.";
+"Error infoList"="문의분야을 선택해 주세요.";
+"Error ContactUsText"="문의글을 입력해 주세요.";
+"Error ContactUsTitle"="제목을 입력해 주세요.";
+"Error Address"="검색 실패 하였습니다!";
+"NO Coupon"="사용 가능한 쿠폰이 없습니다.";
+
+"CouponTextFailed"="쿠폰을 입력해 주세요.";
+"coupon_succes"="쿠폰 등록이 성공했습니다.";
+
+"Logout Faild"="로그아웃 실패";
+"ReachableWWAN"="이동통신망을 이용하면\n별도의 데이터 통화료가 발생할 수있습니다.";
+"printEndUpload"="사진 업로드를 완료하였습니다.";
+"ErrorPrintUpload"="사진 업로드를 실패하였습니다.\n다시 진행 하시겠습니까?";
+"Error Album"="사진 권한이 차단되었습니다.\n설정App/PHOTOMON 에서 사진 권한을\n활성화 해주세요.";
+"Error Camera"="카메라 권한이 차단되었습니다.\n설정App/PHOTOMON 에서 카메라 권한을\n활성화 해주세요.";
+//SNS  메세지
+"InvitMsg"="포토몬앱에서 쉽고 재미있게 사진과 소품들을 만들어 보세요 \nhttps://itunes.apple.com/kr/app/photomon/id723333895?mt=8";
+"ShareMsg"="https://itunes.apple.com/kr/app/photomon/id723333895?mt=8";
+"CartMoveMsg"="편집없이 주문전송을 하면 사진 잘림이\n발생할 수 있습니다.\n더블탭을 이용해 인화영역을 편집 후\n주문하시길 권장합니다.\n장바구니에 담으시겠습니까?";
+"ReviseTypeMsg"="자동밝기보정을 하시겠습니까?\n밝기 보정을 하면 전체 사진의 밝기가\n한단계 높아집니다.\n\n*어두운 사진인 경우 Yes 를 선택하세요.";
+"SignCouponMsg"="회원가입";
+//URL
+"orderNoUrl"="https://www.photomon.com/xml/urlprint.asp?urltype=orderno";
+"uploadHostUrl"="https://www.photomon.com/xml/urlprint.asp?urltype=UPLOAD_HOST";
+"uploadHostImageUrl"="https://www.photomon.com/xml/urlprint.asp?urltype=UPLOAD_HOST_IMAGE";
+
+//주문배송정보
+"orderCostText"="결제방법: %@ / 결제금액: %@";
+"orderTrackText"="%@ / 운송장번호: %@";
+"order_recvamt_title"="%@(배송료:%@)";
+"order_recvamt_free_title" = "무료";
+
+//미리보기
+"quantity_title"="%@(%d장)";
+"preview_title"="사이즈: %@ / 수량: %@ \n";
+
+*/

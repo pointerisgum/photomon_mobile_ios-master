@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NanumSquareOTFBold.otf">
+            <string>NanumSquareOTFB</string>
+        </array>
+        <array key="NanumSquareOTFExtraBold.otf">
+            <string>NanumSquareOTFEB</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ListCell" id="gTV-IL-0wX" customClass="ListCell">
+            <rect key="frame" x="0.0" y="0.0" width="364" height="170"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="364" height="170"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syQ-x6-Vc1">
+                        <rect key="frame" x="27" y="76.5" width="9.5" height="17"/>
+                        <fontDescription key="fontDescription" name="NanumSquareOTFEB" family="NanumSquareOTF" pointSize="15.300000190734863"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vfa-bg-jeI">
+                        <rect key="frame" x="40.5" y="34.5" width="101" height="101"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="101" id="28c-mb-7H6"/>
+                            <constraint firstAttribute="height" constant="101" id="LJ8-Ri-vkZ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="포토북" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzZ-KE-XvP">
+                        <rect key="frame" x="143.5" y="50.5" width="30.5" height="12.5"/>
+                        <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="11"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gte-VM-pTG">
+                        <rect key="frame" x="143.5" y="66" width="33.5" height="15"/>
+                        <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="13.300000190734863"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_heart" translatesAutoresizingMaskIntoConstraints="NO" id="q4f-fG-0aO">
+                        <rect key="frame" x="143.5" y="111" width="9.5" height="9"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="9" id="3r9-PL-Hvh"/>
+                            <constraint firstAttribute="width" constant="9.5" id="GlV-Mj-UNt"/>
+                        </constraints>
+                    </imageView>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thv-Y0-l4s">
+                        <rect key="frame" x="158" y="109" width="28.5" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="syQ-x6-Vc1" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="09c-WA-gba"/>
+                <constraint firstItem="pzZ-KE-XvP" firstAttribute="top" secondItem="vfa-bg-jeI" secondAttribute="top" constant="16" id="4UY-35-tvb"/>
+                <constraint firstItem="vfa-bg-jeI" firstAttribute="leading" secondItem="syQ-x6-Vc1" secondAttribute="trailing" constant="4" id="5vn-Gg-wKQ"/>
+                <constraint firstItem="q4f-fG-0aO" firstAttribute="top" secondItem="Gte-VM-pTG" secondAttribute="bottom" constant="30" id="7zT-cU-d0Y"/>
+                <constraint firstItem="q4f-fG-0aO" firstAttribute="leading" secondItem="Gte-VM-pTG" secondAttribute="leading" id="FKc-Ju-8nV"/>
+                <constraint firstItem="vfa-bg-jeI" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="P7t-nH-AyE"/>
+                <constraint firstItem="syQ-x6-Vc1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="27" id="THk-KQ-hqE"/>
+                <constraint firstItem="thv-Y0-l4s" firstAttribute="centerY" secondItem="q4f-fG-0aO" secondAttribute="centerY" id="d7w-zx-RyN"/>
+                <constraint firstItem="thv-Y0-l4s" firstAttribute="leading" secondItem="q4f-fG-0aO" secondAttribute="trailing" constant="5" id="ely-uL-9wp"/>
+                <constraint firstItem="Gte-VM-pTG" firstAttribute="leading" secondItem="pzZ-KE-XvP" secondAttribute="leading" id="guZ-9g-rCx"/>
+                <constraint firstItem="pzZ-KE-XvP" firstAttribute="leading" secondItem="vfa-bg-jeI" secondAttribute="trailing" constant="2" id="qpf-oU-jKg"/>
+                <constraint firstItem="Gte-VM-pTG" firstAttribute="top" secondItem="pzZ-KE-XvP" secondAttribute="bottom" constant="3" id="ydf-iK-DGy"/>
+            </constraints>
+            <size key="customSize" width="364" height="170"/>
+            <connections>
+                <outlet property="ivThumb" destination="vfa-bg-jeI" id="A7K-cl-Hpq"/>
+                <outlet property="lbCategory" destination="pzZ-KE-XvP" id="ovt-9f-CCR"/>
+                <outlet property="lbLikeCount" destination="thv-Y0-l4s" id="vKP-am-b2F"/>
+                <outlet property="lbRanking" destination="syQ-x6-Vc1" id="HUD-6s-vdD"/>
+                <outlet property="lbTitle" destination="Gte-VM-pTG" id="thA-ut-j8m"/>
+            </connections>
+            <point key="canvasLocation" x="547.82608695652175" y="248.4375"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_heart" width="14.5" height="13.5"/>
+    </resources>
+</document>

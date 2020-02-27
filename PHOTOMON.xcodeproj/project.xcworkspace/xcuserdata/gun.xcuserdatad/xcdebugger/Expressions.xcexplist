@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[GoodsFanbookDetailViewController viewDidLoad]:GoodsFanbookDetailViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GoodsProductViewController collectionView:didSelectItemAtIndexPath:]:GoodsProductViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PhotobookEditTableViewController save:]:PhotobookEditTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[Common info].photobook_product_root_controller">
+            </PersistentString>
+            <PersistentString
+               value = "[Common info].photobook.ProductCode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
